@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
 Photogur::Application.routes.draw do 
+  resources :pictures
 
   root :to => "pictures#index"
 
